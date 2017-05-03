@@ -23,8 +23,6 @@ hugo
 cd public
 
 # Commit changes.
-git init
-git remote add origin git@github.com:danielqsj/danielqsj.github.io.git
 date="`date`"
 git add -A
 git commit -m "Rebuild the site on $date"
@@ -36,7 +34,7 @@ git push origin master
 cd ..
 
 # Commit and push the submodule SHA
-git add --all
+git add -A
 git commit -m "Update the site on $date"
 git push origin master
 
