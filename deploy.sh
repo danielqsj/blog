@@ -23,6 +23,8 @@ hugo
 cd public
 
 # Commit changes.
+git init
+git remote add origin git@github.com:danielqsj/danielqsj.github.io.git
 date="`date`"
 git add -A
 git commit -m "Rebuild the site on $date"
