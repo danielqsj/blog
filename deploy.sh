@@ -16,7 +16,6 @@ fi
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Generate the pages.
-find public ! -name ".*" -delete
 hugo
 
 # Go to the submodule directory.
