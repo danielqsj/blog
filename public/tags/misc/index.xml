@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on Daniel&#39;s Blog</title>
+    <link>https://danielqsj.github.io/tags/misc/</link>
+    <description>Recent content in Misc on Daniel&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2017 21:53:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://danielqsj.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About the site</title>
+      <link>https://danielqsj.github.io/2017/05/about-the-site/</link>
+      <pubDate>Tue, 02 May 2017 21:53:54 +0800</pubDate>
+      
+      <guid>https://danielqsj.github.io/2017/05/about-the-site/</guid>
+      <description>建博客缘由 从接触电脑开始，就一直关注博客的发展，也从很多博主那里学到了各种Tips，所以也一直很希望能够加入写博客的队伍中，记录一下平时生活中发生的琐事和所关注的技术问题。 以前也在开源中国和博客园里面建立过博客,不过用着不顺手，所以博客写的断断续续，以后决定开始建立一个独立博客，并开始坚持记录，欢迎各位讨论与监督。
+工具 建站工具 由于暂时还未购买域名，所以打算暂时托管在github上，对比了几个常用的建站工具Jekyll, Octopress, Hexo, Hugo等之后，最终选择了简洁方便的Hugo。
+写作工具 毫无疑问，选择Markdown。如果有同学对其语法不清楚的话，可以参考Markdown语法说明。
+技术关注点 我其实对很多新鲜和基础的技术都很感兴趣，以后会把各个方面的学习和实践都记录下来。
+主要的领域包括但不限于：
+ 云计算 大数据 人工智能 智能硬件与嵌入式开发 网络安全 ……  希望能和大家多多交流,我会尽快回复各位的留言。</description>
+    </item>
+    
+  </channel>
+</rss>

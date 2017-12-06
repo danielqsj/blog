@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Daniel&#39;s Blog</title>
+    <link>https://danielqsj.github.io/categories/project/</link>
+    <description>Recent content in Project on Daniel&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Dec 2017 23:05:05 +0800</lastBuildDate>
+    
+	<atom:link href="https://danielqsj.github.io/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kafka Exporter v0.3.0 Release</title>
+      <link>https://danielqsj.github.io/2017/12/kafka-exporter-v0.3.0-release/</link>
+      <pubDate>Wed, 06 Dec 2017 23:05:05 +0800</pubDate>
+      
+      <guid>https://danielqsj.github.io/2017/12/kafka-exporter-v0.3.0-release/</guid>
+      <description>时隔1个半月，kakfa exporter v0.3.0于今日正式发布，欢迎大家试用。
+项目地址 Github: https://github.com/danielqsj/kafka_exporter
+Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过5.4k，已经稳定运行在多个平台。
+特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
+使用方法 详见项目说明文档。
+指标 Brokers Metrics details
+   Name Exposed informations     kafka_brokers Number of Brokers in the Kafka Cluster    Metrics output example
+# HELP kafka_brokers Number of Brokers in the Kafka Cluster. # TYPE kafka_brokers gauge kafka_brokers 3  Topics Metrics details</description>
+    </item>
+    
+  </channel>
+</rss>
