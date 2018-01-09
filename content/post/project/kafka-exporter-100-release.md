@@ -16,6 +16,7 @@ showTags = true
 kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
 # 项目地址
 Github: https://github.com/danielqsj/kafka_exporter
+
 Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
 # 项目状态
 自v0.2.0版本被Prometheus项目官方[推荐](https://prometheus.io/docs/instrumenting/exporters/#messaging-systems)以来，[镜像](https://hub.docker.com/r/danielqsj/kafka-exporter/)累计下载量已超过6.1k，已经稳定运行在多个平台。
@@ -111,6 +112,7 @@ kafka_consumergroup_current_offset{consumergroup="KMOffsetCache-kafka-manager-38
 kafka_consumergroup_lag{consumergroup="KMOffsetCache-kafka-manager-3806276532-ml44w",partition="0",topic="__consumer_offsets"} 1
 ```
 ## Release Notes
+
 ### v1.0.0
 * [FEATURE] Support TLS
 * [FEATURE] Support disable SASL handshake
@@ -118,12 +120,15 @@ kafka_consumergroup_lag{consumergroup="KMOffsetCache-kafka-manager-3806276532-ml
 * [ENHANCEMENT] Provide specific string for Kafka logging, debugging, and auditing purposes
 * [BUGFIX] Fix multiple prometheus servers scraping competition issue
 * [BUGFIX] Fix overwrite configuration issue
+
 ### v0.3.0
 * [FEATURE] Support kafka SASL/PLAIN authentication
 * [FEATURE] Support topic filter
 * [BUGFIX] Fix topics not sync when modifying topic list
+
 ### v0.2.0
 * [CHANGE] Change default port to 9308
 * [ENHANCEMENT] Support multiple addresses for kafka servers
+
 ### v0.1.0
 * Initial release

@@ -31,7 +31,8 @@
 
     
     <meta name="description" content="kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目地址 Github: https://github.com/danielqsj/kafka_exporter
+Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
 项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
@@ -39,7 +40,8 @@
    Name Exposed informations     kafka_brokers Number of Brokers in the Kafka Cluster    Metrics output example
 # HELP kafka_brokers Number of Brokers in the Kafka Cluster. # TYPE kafka_brokers gauge kafka_brokers 3  Topics Metrics details">
     <meta property="og:description" content="kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目地址 Github: https://github.com/danielqsj/kafka_exporter
+Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
 项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
@@ -53,7 +55,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Daniel&#39;s Blog">
     <meta name="twitter:description" content="kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目地址 Github: https://github.com/danielqsj/kafka_exporter
+Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
 项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
@@ -267,8 +270,9 @@ ga('send', 'pageview');
 
 <h1 id="项目地址">项目地址</h1>
 
-<p>Github: <a href="https://github.com/danielqsj/kafka_exporter">https://github.com/danielqsj/kafka_exporter</a>
-Docker Hub: <a href="https://hub.docker.com/r/danielqsj/kafka-exporter">https://hub.docker.com/r/danielqsj/kafka-exporter</a></p>
+<p>Github: <a href="https://github.com/danielqsj/kafka_exporter">https://github.com/danielqsj/kafka_exporter</a></p>
+
+<p>Docker Hub: <a href="https://hub.docker.com/r/danielqsj/kafka-exporter">https://hub.docker.com/r/danielqsj/kafka-exporter</a></p>
 
 <h1 id="项目状态">项目状态</h1>
 
@@ -447,26 +451,28 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
 <li>[FEATURE] Support enable Sarama logging for detailed connection management events</li>
 <li>[ENHANCEMENT] Provide specific string for Kafka logging, debugging, and auditing purposes</li>
 <li>[BUGFIX] Fix multiple prometheus servers scraping competition issue</li>
+<li>[BUGFIX] Fix overwrite configuration issue</li>
+</ul>
 
-<li><p>[BUGFIX] Fix overwrite configuration issue</p>
+<h3 id="v0-3-0">v0.3.0</h3>
 
-<h3 id="v0-3-0">v0.3.0</h3></li>
+<ul>
+<li>[FEATURE] Support kafka SASL/PLAIN authentication</li>
+<li>[FEATURE] Support topic filter</li>
+<li>[BUGFIX] Fix topics not sync when modifying topic list</li>
+</ul>
 
-<li><p>[FEATURE] Support kafka SASL/PLAIN authentication</p></li>
+<h3 id="v0-2-0">v0.2.0</h3>
 
-<li><p>[FEATURE] Support topic filter</p></li>
+<ul>
+<li>[CHANGE] Change default port to 9308</li>
+<li>[ENHANCEMENT] Support multiple addresses for kafka servers</li>
+</ul>
 
-<li><p>[BUGFIX] Fix topics not sync when modifying topic list</p>
+<h3 id="v0-1-0">v0.1.0</h3>
 
-<h3 id="v0-2-0">v0.2.0</h3></li>
-
-<li><p>[CHANGE] Change default port to 9308</p></li>
-
-<li><p>[ENHANCEMENT] Support multiple addresses for kafka servers</p>
-
-<h3 id="v0-1-0">v0.1.0</h3></li>
-
-<li><p>Initial release</p></li>
+<ul>
+<li>Initial release</li>
 </ul>
 
               
@@ -675,7 +681,8 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
                 </span>
               </span>
               <div class="media-content hide-xs font-merryweather">kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目地址 Github: https://github.com/danielqsj/kafka_exporter
+Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
 项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
