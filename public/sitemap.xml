@@ -40,6 +40,12 @@
   </url>
   
   <url>
+    <loc>https://danielqsj.github.io/tags/misc/</loc>
+    <lastmod>2017-05-02T21:53:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://danielqsj.github.io/categories/misc/</loc>
     <lastmod>2017-05-02T21:53:54+08:00</lastmod>
     <priority>0</priority>
@@ -47,12 +53,6 @@
   
   <url>
     <loc>https://danielqsj.github.io/series/misc/</loc>
-    <lastmod>2017-05-02T21:53:54+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielqsj.github.io/tags/misc/</loc>
     <lastmod>2017-05-02T21:53:54+08:00</lastmod>
     <priority>0</priority>
   </url>
