@@ -17,7 +17,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.31.1 with theme Tranquilpeak 0.4.3-BETA">
+    <meta name="generator" content="Hugo 0.32.3 with theme Tranquilpeak 0.4.3-BETA">
     <title>Project</title>
     <meta name="author" content="Daniel Qian">
     <meta name="keywords" content="">
@@ -225,6 +225,67 @@ ga('send', 'pageview');
     
     <div class="postShorten-header">
       <h1 class="postShorten-title" itemprop="headline">
+        <a class="link-unstyled" href="https://danielqsj.github.io/2018/01/kafka-exporter-v1.0.0-release/">
+          Kafka Exporter v1.0.0 Release
+        </a>
+      </h1>
+      
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-01-09T14:40:36&#43;08:00">
+        
+  January 9, 2018
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://danielqsj.github.io/categories/project">project</a>
+    
+  
+
+  </div>
+
+    </div>
+    <div class="postShorten-excerpt" itemprop="articleBody">
+      kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
+项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
+特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
+使用方法 详见项目说明文档。
+指标 Brokers Metrics details
+   Name Exposed informations     kafka_brokers Number of Brokers in the Kafka Cluster    Metrics output example
+# HELP kafka_brokers Number of Brokers in the Kafka Cluster. # TYPE kafka_brokers gauge kafka_brokers 3  Topics Metrics details
+      <p>
+        <a href="https://danielqsj.github.io/2018/01/kafka-exporter-v1.0.0-release/" class="postShorten-excerpt_link link">Continue reading</a>
+        
+      </p>
+    </div>
+  </div>
+  
+</article>
+
+          
+            
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+
+<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
+  <div class="postShorten-wrap">
+    
+    <div class="postShorten-header">
+      <h1 class="postShorten-title" itemprop="headline">
         <a class="link-unstyled" href="https://danielqsj.github.io/2017/12/kafka-exporter-v0.3.0-release/">
           Kafka Exporter v0.3.0 Release
         </a>
@@ -275,7 +336,7 @@ Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
         </section>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2017 Daniel Qian. All Rights Reserved
+    &copy; 2018 Daniel Qian. All Rights Reserved
   </span>
 </footer>
 
@@ -333,6 +394,30 @@ Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://danielqsj.github.io/2018/01/kafka-exporter-v1.0.0-release/">
+                <h3 class="media-heading">Kafka Exporter v1.0.0 Release</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
+项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
+特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
+使用方法 详见项目说明文档。
+指标 Brokers Metrics details
+   Name Exposed informations     kafka_brokers Number of Brokers in the Kafka Cluster    Metrics output example
+# HELP kafka_brokers Number of Brokers in the Kafka Cluster. # TYPE kafka_brokers gauge kafka_brokers 3  Topics Metrics details</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://danielqsj.github.io/2017/12/kafka-exporter-v0.3.0-release/">
                 <h3 class="media-heading">Kafka Exporter v0.3.0 Release</h3>
               </a>
@@ -384,7 +469,7 @@ Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         2 posts found
+         3 posts found
       </p>
     </div>
   </div>

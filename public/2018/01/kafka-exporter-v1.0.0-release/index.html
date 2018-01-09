@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.32.3 with theme Tranquilpeak 0.4.3-BETA">
-    <title>Kafka Exporter v0.3.0 Release</title>
+    <title>Kafka Exporter v1.0.0 Release</title>
     <meta name="author" content="Daniel Qian">
     <meta name="keywords" content="kafka-exporter">
 
@@ -30,34 +30,31 @@
     
 
     
-    <meta name="description" content="时隔1个半月，kakfa exporter v0.3.0于今日正式发布，欢迎大家试用。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter
-Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
-项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过5.4k，已经稳定运行在多个平台。
+    <meta name="description" content="kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
+项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
 指标 Brokers Metrics details
    Name Exposed informations     kafka_brokers Number of Brokers in the Kafka Cluster    Metrics output example
 # HELP kafka_brokers Number of Brokers in the Kafka Cluster. # TYPE kafka_brokers gauge kafka_brokers 3  Topics Metrics details">
-    <meta property="og:description" content="时隔1个半月，kakfa exporter v0.3.0于今日正式发布，欢迎大家试用。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter
-Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
-项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过5.4k，已经稳定运行在多个平台。
+    <meta property="og:description" content="kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
+项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
 指标 Brokers Metrics details
    Name Exposed informations     kafka_brokers Number of Brokers in the Kafka Cluster    Metrics output example
 # HELP kafka_brokers Number of Brokers in the Kafka Cluster. # TYPE kafka_brokers gauge kafka_brokers 3  Topics Metrics details">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Kafka Exporter v0.3.0 Release">
-    <meta property="og:url" content="/2017/12/kafka-exporter-v0.3.0-release/">
+    <meta property="og:title" content="Kafka Exporter v1.0.0 Release">
+    <meta property="og:url" content="/2018/01/kafka-exporter-v1.0.0-release/">
     <meta property="og:site_name" content="Daniel&#39;s Blog">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Daniel&#39;s Blog">
-    <meta name="twitter:description" content="时隔1个半月，kakfa exporter v0.3.0于今日正式发布，欢迎大家试用。
-项目地址 Github: https://github.com/danielqsj/kafka_exporter
-Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
-项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过5.4k，已经稳定运行在多个平台。
+    <meta name="twitter:description" content="kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。
+项目地址 Github: https://github.com/danielqsj/kafka_exporter Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
+项目状态 自v0.2.0版本被Prometheus项目官方推荐以来，镜像累计下载量已超过6.1k，已经稳定运行在多个平台。
 特点 kafka exporter 通过 Kafka Protocol Specification 收集 Brokers, Topics 以及 Consumer Groups的相关指标，使用简单，运行高效，相比于以往通过kafka内置的脚本进行收集，由于没有了JVM的运行开销，指标收集时间从分钟级别降到秒级别，便于大规模集群的监控。
 使用方法 详见项目说明文档。
 指标 Brokers Metrics details
@@ -237,15 +234,15 @@ ga('send', 'pageview');
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      Kafka Exporter v0.3.0 Release
+      Kafka Exporter v1.0.0 Release
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2017-12-06T23:05:05&#43;08:00">
+      <time itemprop="datePublished" datetime="2018-01-09T14:40:36&#43;08:00">
         
-  December 6, 2017
+  January 9, 2018
 
       </time>
     
@@ -266,17 +263,16 @@ ga('send', 'pageview');
             <div class="main-content-wrap">
               
 
-<p>时隔1个半月，kakfa exporter v0.3.0于今日正式发布，欢迎大家试用。</p>
+<p>kakfa exporter v1.0.0于今日正式发布，Prometheus官方推荐，新增多项特性，欢迎大家使用，多提宝贵意见。</p>
 
 <h1 id="项目地址">项目地址</h1>
 
-<p>Github: <a href="https://github.com/danielqsj/kafka_exporter">https://github.com/danielqsj/kafka_exporter</a></p>
-
-<p>Docker Hub: <a href="https://hub.docker.com/r/danielqsj/kafka-exporter">https://hub.docker.com/r/danielqsj/kafka-exporter</a></p>
+<p>Github: <a href="https://github.com/danielqsj/kafka_exporter">https://github.com/danielqsj/kafka_exporter</a>
+Docker Hub: <a href="https://hub.docker.com/r/danielqsj/kafka-exporter">https://hub.docker.com/r/danielqsj/kafka-exporter</a></p>
 
 <h1 id="项目状态">项目状态</h1>
 
-<p>自v0.2.0版本被Prometheus项目官方<a href="https://prometheus.io/docs/instrumenting/exporters/#messaging-systems">推荐</a>以来，<a href="https://hub.docker.com/r/danielqsj/kafka-exporter/">镜像</a>累计下载量已超过5.4k，已经稳定运行在多个平台。</p>
+<p>自v0.2.0版本被Prometheus项目官方<a href="https://prometheus.io/docs/instrumenting/exporters/#messaging-systems">推荐</a>以来，<a href="https://hub.docker.com/r/danielqsj/kafka-exporter/">镜像</a>累计下载量已超过6.1k，已经稳定运行在多个平台。</p>
 
 <h2 id="特点">特点</h2>
 
@@ -443,25 +439,34 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
 
 <h2 id="release-notes">Release Notes</h2>
 
-<h3 id="v0-3-0">v0.3.0</h3>
+<h3 id="v1-0-0">v1.0.0</h3>
 
 <ul>
-<li>[FEATURE] Support kafka SASL/PLAIN authentication</li>
-<li>[FEATURE] Support topic filter</li>
-<li>[BUGFIX] Fix topics not sync when modifying topic list</li>
-</ul>
+<li>[FEATURE] Support TLS</li>
+<li>[FEATURE] Support disable SASL handshake</li>
+<li>[FEATURE] Support enable Sarama logging for detailed connection management events</li>
+<li>[ENHANCEMENT] Provide specific string for Kafka logging, debugging, and auditing purposes</li>
+<li>[BUGFIX] Fix multiple prometheus servers scraping competition issue</li>
 
-<h3 id="v0-2-0">v0.2.0</h3>
+<li><p>[BUGFIX] Fix overwrite configuration issue</p>
 
-<ul>
-<li>[CHANGE] Change default port to 9308</li>
-<li>[ENHANCEMENT] Support multiple addresses for kafka servers</li>
-</ul>
+<h3 id="v0-3-0">v0.3.0</h3></li>
 
-<h3 id="v0-1-0">v0.1.0</h3>
+<li><p>[FEATURE] Support kafka SASL/PLAIN authentication</p></li>
 
-<ul>
-<li>Initial release</li>
+<li><p>[FEATURE] Support topic filter</p></li>
+
+<li><p>[BUGFIX] Fix topics not sync when modifying topic list</p>
+
+<h3 id="v0-2-0">v0.2.0</h3></li>
+
+<li><p>[CHANGE] Change default port to 9308</p></li>
+
+<li><p>[ENHANCEMENT] Support multiple addresses for kafka servers</p>
+
+<h3 id="v0-1-0">v0.1.0</h3></li>
+
+<li><p>Initial release</p></li>
 </ul>
 
               
@@ -488,7 +493,7 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://danielqsj.github.io/2018/01/kafka-exporter-v1.0.0-release/" data-tooltip="Kafka Exporter v1.0.0 Release">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -496,7 +501,7 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://danielqsj.github.io/2017/05/about-the-site/" data-tooltip="About the site">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://danielqsj.github.io/2017/12/kafka-exporter-v0.3.0-release/" data-tooltip="Kafka Exporter v0.3.0 Release">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -556,7 +561,7 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://danielqsj.github.io/2018/01/kafka-exporter-v1.0.0-release/" data-tooltip="Kafka Exporter v1.0.0 Release">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -564,7 +569,7 @@ kafka_consumergroup_lag{consumergroup=&quot;KMOffsetCache-kafka-manager-38062765
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://danielqsj.github.io/2017/05/about-the-site/" data-tooltip="About the site">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://danielqsj.github.io/2017/12/kafka-exporter-v0.3.0-release/" data-tooltip="Kafka Exporter v0.3.0 Release">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -763,9 +768,9 @@ Docker Hub: https://hub.docker.com/r/danielqsj/kafka-exporter
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/danielqsj.github.io\/2017\/12\/kafka-exporter-v0.3.0-release\/';
+          this.page.url = 'https:\/\/danielqsj.github.io\/2018\/01\/kafka-exporter-v1.0.0-release\/';
           
-            this.page.identifier = 'Kafka exporter v0.3.0 release';
+            this.page.identifier = 'Kafka exporter v1.0.0 release';
           
         };
         (function() {
